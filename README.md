@@ -1,8 +1,17 @@
-##Welcome to the Wattpad Clone Repository! 📚📱
+# Welcome to the Wattpad Clone Repository! 📚📱
 
--This mobile application is designed to emulate the core features of Wattpad, enabling users to read, write, and share stories. Built using React Native, this app aims to provide a seamless and engaging reading and writing experience on mobile devices.
+This mobile application is designed to emulate the core features of Wattpad, enabling users to read, write, and share stories. Built using React Native, this app aims to provide a seamless and engaging reading and writing experience on mobile devices.
 
-**Key Features:**
+## Technology stack 
+Frontend
+✅ React Native
+
+Backend
+✅ Node.js
+✅ Express.js
+✅ MongoDB
+
+## Key Features:
 - Story Browsing: Explore a vast collection of stories across various genres.
 - Story Creation: Write and publish your own stories with ease.
 - Personal Library: Save your favorite stories and manage your reading list.
