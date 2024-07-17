@@ -19,10 +19,10 @@ Backend
 - User Profiles: Customize your profile, follow other users, and stay updated with their latest stories.
 
 Feel free to explore the code, contribute, and share your feedback to help improve the application!
-![Screenshot from 2024-07-14 08-44-30.png](login.jpeg)
-![Screenshot from 2024-07-14 08-44-30.png](dashboarb1.jpeg)
-![Screenshot from 2024-07-14 08-44-30.png](dasbboard2.jpeg)
-![Screenshot from 2024-07-14 08-44-30.png](searchPage.jpeg)
+![login](login.png)
+![dashboard_1](dashboarb1.jpeg)
+![dashboard_2](dasbboard2.jpeg)
+![searchPage](searchPage.jpeg)
 ![Screenshot from 2024-07-14 08-41-29.png](Screenshot%2FScreenshot%20from%202024-07-14%2008-41-29.png)
 ![Screenshot from 2024-07-14 08-44-19.png](Screenshot%2FScreenshot%20from%202024-07-14%2008-44-19.png)
 ![Screenshot from 2024-07-14 08-44-30.png](Screenshot%2FScreenshot%20from%202024-07-14%2008-44-30.png)
