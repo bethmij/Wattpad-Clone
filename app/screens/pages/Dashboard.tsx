@@ -176,10 +176,10 @@ const Dashboard = () => {
         <TouchableOpacity onPress={() => router.push('screens/pages/Library')}>
           <Ionicons name="library-outline" size={24} color="white" />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>router.push('screens/pages/WriteScreen')}>
           <Ionicons name="pencil-outline" size={24} color="white" />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>router.push('')}>
           <Ionicons name="notifications-outline" size={24} color="white" />
         </TouchableOpacity>
       </SafeAreaView>

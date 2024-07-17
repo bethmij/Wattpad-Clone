@@ -102,7 +102,7 @@ const LibraryScreen: React.FC = () => {
         <TouchableOpacity onPress={() => router.push('screens/pages/Library')}>
           <Ionicons name="library-outline" size={24} color="white" />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>router.push('screens/pages/WriteScreen')}>
           <Ionicons name="pencil-outline" size={24} color="white" />
         </TouchableOpacity>
         <TouchableOpacity>

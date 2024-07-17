@@ -11,7 +11,7 @@ export default function RootLayout() {
       <Stack.Screen name="screens/pages/Dashboard"  options={{ headerShown: false }} />
       <Stack.Screen name="screens/pages/Search"  options={{ headerShown: false }} />
       <Stack.Screen name="screens/pages/Library"  options={{ headerShown: false }} />
-     
+      <Stack.Screen name="screens/pages/WriteScreen"  options={{ headerShown: false }} />     
     </Stack>
     </PaperProvider>
     </SafeAreaProvider>
