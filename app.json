@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wattpad-clone",
-    "slug": "wattpad-clone",
+    "name": "SmartPay",
+    "slug": "SmartPay",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
