@@ -7,7 +7,7 @@ import { router } from 'expo-router';
 const Dashboard = () => {
   return (
     <ScrollView className='bg-black'>
-      {/* Header */}
+      
       <SafeAreaView className="flex-row items-center justify-between p-4 pt-5 mt-5">
           <Image source={require("../../../assets/wattpad-logo.png")} className="h-10 w-10" />
           
@@ -29,7 +29,7 @@ const Dashboard = () => {
           </View>
         </SafeAreaView>
 
-      {/* Banner */}
+      
       <View className="p-4">
         <Text className="text-white text-2xl">Out now: Heart of Iron ❤️‍🔥</Text>
         <Text className="text-gray-400 text-lg font-bold ">A world of secrets and danger</Text>
@@ -37,7 +37,6 @@ const Dashboard = () => {
         <Image source={require('../../../assets/banner.png') } className="h-40 w-full mt-2 rounded" />
       </View>
 
-      {/* Your Stories */}
       <View className="p-4 bg-[#01170A] border-y-2 border-green-900">
         <Text className="text-white text-xl font-bold">Your stories</Text>
         <Text className="text-gray-400 mb-5">Catch up on the stories you love!</Text>
@@ -70,7 +69,7 @@ const Dashboard = () => {
         </ScrollView>
       </View>
 
-      {/* Top Picks For You */}
+      
       <View className="p-4">
         <Text className="text-white text-xl font-bold mb-5">Top Picks For You</Text>
         <ScrollView horizontal>
@@ -122,7 +121,7 @@ const Dashboard = () => {
       </View>
     </SafeAreaView>
 
-      {/* Wattpad Originals */}
+    
       <View className="p-4 bg-gray-900 border-y-2 border-gray-700">
         <Text className="text-white text-xl font-bold mb-5">Wattpad Originals for Bjbrooke</Text>
         <ScrollView horizontal>
@@ -145,7 +144,6 @@ const Dashboard = () => {
         </ScrollView>
       </View>
 
-      {/* Based on genres you love */}
       <View className="p-4">
         <Text className="text-white text-xl font-bold mb-5">Based on genres you love</Text>
         <ScrollView horizontal>
@@ -168,22 +166,21 @@ const Dashboard = () => {
         </ScrollView>
       </View>
 
-      {/* Footer */}
       <SafeAreaView className="bottom-0 w-full flex-row items-center justify-around p-4 bg-black">
-        <TouchableOpacity onPress={()=>router.push('screens/pages/Dashboard')}>
+        <TouchableOpacity onPress={() => router.push('screens/pages/Dashboard')}>
           <Ionicons name="home-outline" size={24} color="white" />
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>router.push('screens/pages/Search')}>
+        <TouchableOpacity onPress={() => router.push('screens/pages/Search')}>
           <Ionicons name="search-outline" size={24} color="white" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => router.push('screens/pages/Library')}>
+          <Ionicons name="library-outline" size={24} color="white" />
         </TouchableOpacity>
         <TouchableOpacity>
           <Ionicons name="pencil-outline" size={24} color="white" />
         </TouchableOpacity>
         <TouchableOpacity>
           <Ionicons name="notifications-outline" size={24} color="white" />
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Ionicons name="person-outline" size={24} color="white" />
         </TouchableOpacity>
       </SafeAreaView>
     </ScrollView>

@@ -48,20 +48,20 @@ export default function Search() {
                     </View>
                 </View>
                 <SafeAreaView className="bottom-0 w-full flex-row items-center justify-around p-4 bg-black">
-                    <TouchableOpacity onPress={()=>router.push('screens/pages/Dashboard')}>
+                    <TouchableOpacity onPress={() => router.push('screens/pages/Dashboard')}>
                         <Ionicons name="home-outline" size={24} color="white" />
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={()=>router.push('screens/pages/Search')}>
+                    <TouchableOpacity onPress={() => router.push('screens/pages/Search')}>
                         <Ionicons name="search-outline" size={24} color="white" />
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => router.push('screens/pages/Library')}>
+                        <Ionicons name="library-outline" size={24} color="white" />
                     </TouchableOpacity>
                     <TouchableOpacity>
                         <Ionicons name="pencil-outline" size={24} color="white" />
                     </TouchableOpacity>
                     <TouchableOpacity>
                         <Ionicons name="notifications-outline" size={24} color="white" />
-                    </TouchableOpacity>
-                    <TouchableOpacity>
-                        <Ionicons name="person-outline" size={24} color="white" />
                     </TouchableOpacity>
                 </SafeAreaView>
             </ScrollView>
