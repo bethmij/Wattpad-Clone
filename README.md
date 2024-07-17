@@ -19,19 +19,19 @@ Backend
 - User Profiles: Customize your profile, follow other users, and stay updated with their latest stories.
 
 Feel free to explore the code, contribute, and share your feedback to help improve the application!
-- Login Page 
-    ![login](./Screenshot/login.png)
+- Login Page
+- ![login](./Screenshot/login.png)
 
 - Dashboard
- ![dashboard_1](./Screenshot/dashboarb1.jpeg)
+- ![dashboard_1](./Screenshot/dashboarb1.jpeg)
 
- ![dashboard_2](./Screenshot/dasbboard2.jpeg)
+- ![dashboard_2](./Screenshot/dasbboard2.jpeg)
 
 - Search Page
- ![searchPage](./Screenshot/searchPage.jpeg)
+- ![searchPage](./Screenshot/searchPage.jpeg)
 
 - Reading Page
- ![readingPage](./Screenshot/reading.png)
+- ![readingPage](./Screenshot/reading.png)
 
 - Profile 
- ![profile](./Screenshot/profile.png)
+- ![profile](./Screenshot/profile.png)
