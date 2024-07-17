@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Image, ScrollView, TouchableOpacity, SafeAreaView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { router } from 'expo-router';
 
 
 const Dashboard = () => {
@@ -20,8 +21,11 @@ const Dashboard = () => {
             </TouchableOpacity>
             <TouchableOpacity className="mx-2">
               <Ionicons name="settings-outline" size={24} color="white" />
+            </TouchableOpacity >
+            <TouchableOpacity onPress={()=>router.back()}>
+              <Image source={require("../../../assets/profile-logo.jpg")} className="h-10 w-10 rounded-full" />
             </TouchableOpacity>
-            <Image source={require("../../../assets/profile-logo.jpg")} className="h-10 w-10 rounded-full" />
+            
           </View>
         </SafeAreaView>
 
@@ -166,10 +170,10 @@ const Dashboard = () => {
 
       {/* Footer */}
       <SafeAreaView className="bottom-0 w-full flex-row items-center justify-around p-4 bg-black">
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>router.push('screens/pages/Dashboard')}>
           <Ionicons name="home-outline" size={24} color="white" />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>router.push('screens/pages/Search')}>
           <Ionicons name="search-outline" size={24} color="white" />
         </TouchableOpacity>
         <TouchableOpacity>
