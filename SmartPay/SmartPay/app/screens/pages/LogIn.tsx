@@ -38,8 +38,8 @@ const LogIn = () => {
         colors={['rgba(0,0,0,0.8)', 'transparent']}
         className="flex-1 justify-center px-5"
       >
-        <View className="rounded-lg p-5 shadow-lg w-[90vw] ">
-          <View className=" absolute bg-white bg-opacity-80 w-[90vw] h-[50vh] opacity-25 rounded-lg "></View>
+        <View className="rounded-lg p-5  shadow-lg w-[90vw] h-fit ">
+          <View className=" absolute bg-white bg-opacity-80 w-[90vw]  h-full opacity-25 rounded-lg "></View>
           <View className='flex flex-row justify-center gap-x-5 items-center mb-8'>
           <Text className="text-4xl font-bold text-orange-600 text-center shadow-md ">Wattpad</Text>
             <Image
@@ -64,15 +64,20 @@ const LogIn = () => {
             value={password}
             secureTextEntry
           />
-          <Button title="Login" onPress={handleLogin} color="#f56b60" />
+          <Button title="Login" onPress={handleLogin} color="#db4437" />
           <TouchableOpacity onPress={handleForgotPassword}>
             <Text className="text-center text-white mt-4  text-lg">Forgot Password?</Text>
           </TouchableOpacity>
           <Text className="text-center my-4 text-white text-lg">OR</Text>
-          <View className="flex-row justify-around">
-            <Button title="Login with Google" onPress={handleGoogleLogin} color="#db4437" />
-            <Button title="Login with Facebook" onPress={handleFacebookLogin} color="#3b5998" />
+          <View className="flex flex-col space-y-3">
+            <View>
+              <Button title="Login with Google" onPress={handleGoogleLogin} color="#f56b60" />
+            </View>
+            <View>
+              <Button title="Login with Facebook" onPress={handleFacebookLogin} color="#3b5998" />
+            </View>
           </View>
+
         </View>
       </LinearGradient>
     </ImageBackground>

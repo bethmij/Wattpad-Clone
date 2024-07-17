@@ -9,6 +9,7 @@ export default function RootLayout() {
     <Stack>
       <Stack.Screen name="index"  options={{ headerShown: false }} />
       <Stack.Screen name="screens/pages/Dashboard"  options={{ headerShown: false }} />
+      <Stack.Screen name="screens/pages/Search"  options={{ headerShown: false }} />
       <Stack.Screen name="screens/pages/BillPay"  options={{ headerShown: false }} />
       <Stack.Screen name="screens/pages/Business"  options={{ headerShown: false }} />
       <Stack.Screen name="screens/pages/FundTransfer"  options={{ headerShown: false }} />
