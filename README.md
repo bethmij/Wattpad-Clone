@@ -30,8 +30,7 @@ Feel free to explore the code, contribute, and share your feedback to help impro
 - Search Page
 - ![searchPage](./Screenshot/searchPage.jpeg)
 
-- Reading Page
-- ![readingPage](./Screenshot/reading.png)
+- Library Page
+- ![libraryPage](./Screenshot/library.jpeg)
 
-- Profile 
-- ![profile](./Screenshot/profile.png)
+
