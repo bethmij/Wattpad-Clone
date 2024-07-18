@@ -33,4 +33,7 @@ Feel free to explore the code, contribute, and share your feedback to help impro
 - Library Page
 - ![libraryPage](./Screenshot/library.jpeg)
 
+- Writing Page
+- ![writingPage](./Screenshot/writing.jpeg)
+
 
