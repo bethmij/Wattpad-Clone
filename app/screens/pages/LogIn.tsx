@@ -38,7 +38,7 @@ const LogIn = () => {
         colors={['rgba(0,0,0,0.8)', 'transparent']}
         className="flex-1 justify-center px-5"
       >
-        <View className="rounded-lg p-5  shadow-lg w-[90vw] h-fit ">
+        <View className="rounded-lg p-5  shadow-lg w-[90vw] h-[60vh] ">
           <View className=" absolute bg-white bg-opacity-80 w-[90vw]  h-full opacity-25 rounded-lg "></View>
           <View className='flex flex-row justify-center gap-x-5 items-center mb-8'>
           <Text className="text-4xl font-bold text-orange-600 text-center shadow-md ">Wattpad</Text>

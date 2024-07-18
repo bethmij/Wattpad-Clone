@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Image, FlatList, SafeAreaView, TouchableOpacity, Dimensions } from 'react-native';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
+import Layout from '../common/Layout';
 
 const data = [
   
@@ -64,52 +65,37 @@ const LibraryScreen: React.FC = () => {
     </View>
   );
 
-  const renderHeader = () => (
-    <View>
-      <View className="flex-row justify-between items-center p-4 mt-5">
-        <Text className="text-white text-2xl">Library</Text>
-        <View className="flex-row items-center">
-          <Ionicons name="help-circle-outline" size={30} color="white" className="mr-4" />
-          <MaterialIcons name="more-vert" size={30} color="white" />
+  const renderHeader = () => (    
+        <View>
+        <View className="flex-row justify-between items-center p-4 mt-5">
+            <Text className="text-white text-2xl">Library</Text>
+            <View className="flex-row items-center">
+            <Ionicons name="help-circle-outline" size={30} color="white" className="mr-4" />
+            <MaterialIcons name="more-vert" size={30} color="white" />
+            </View>
         </View>
-      </View>
-      <View className="flex-row justify-between bg-[#151414] p-3">
-        <Text className="text-white text-lg border-b-2 h-full border-orange-600">Current Reads</Text>
-        <Text className="text-white text-lg">Archive</Text>
-        <Text className="text-white text-lg">Reading Lists</Text>
-      </View>
-      <Text className="text-white mt-5 ml-2 text-xl mb-5 font-bold">Available Offline</Text>
-    </View>
-  );
+        <View className="flex-row justify-between bg-[#151414] p-3">
+            <Text className="text-white text-lg border-b-2 h-full border-orange-600">Current Reads</Text>
+            <Text className="text-white text-lg">Archive</Text>
+            <Text className="text-white text-lg">Reading Lists</Text>
+        </View>
+        <Text className="text-white mt-5 ml-2 text-xl mb-5 font-bold">Available Offline</Text>
+        </View>
+    );
 
-  return (
-    <View className="flex-1 bg-black w-full">
-      <FlatList
-        data={data}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.id}
-        numColumns={3}
-        contentContainerStyle={{ padding: 4 }}
-        ListHeaderComponent={renderHeader}
-      />
-      <SafeAreaView className="bottom-0 w-full flex-row items-center justify-around p-4 bg-black">
-        <TouchableOpacity onPress={() => router.push('screens/pages/Dashboard')}>
-          <Ionicons name="home-outline" size={24} color="white" />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => router.push('screens/pages/Search')}>
-          <Ionicons name="search-outline" size={24} color="white" />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => router.push('screens/pages/Library')}>
-          <Ionicons name="library-outline" size={24} color="white" />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={()=>router.push('screens/pages/WriteScreen')}>
-          <Ionicons name="pencil-outline" size={24} color="white" />
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Ionicons name="notifications-outline" size={24} color="white" />
-        </TouchableOpacity>
-      </SafeAreaView>
-    </View>
+    return (
+        <Layout>
+            <View className="flex-1 bg-black w-full mb-16">
+                <FlatList
+                    data={data}
+                    renderItem={renderItem}
+                    keyExtractor={(item) => item.id}
+                    numColumns={3}
+                    contentContainerStyle={{ padding: 4 }}
+                    ListHeaderComponent={renderHeader}
+                />
+            </View>
+        </Layout>
   );
 };
 
