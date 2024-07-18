@@ -26,8 +26,7 @@ const Dashboard = () => {
               </TouchableOpacity >
               <TouchableOpacity onPress={()=>router.push('screens/pages/LogIn')}>
                 <Image source={require("../../../assets/profile-logo.jpg")} className="h-10 w-10 rounded-full" />
-              </TouchableOpacity>
-              
+              </TouchableOpacity>              
             </View>
           </SafeAreaView>
 
@@ -36,7 +35,9 @@ const Dashboard = () => {
           <Text className="text-white text-2xl">Out now: Heart of Iron ❤️‍🔥</Text>
           <Text className="text-gray-400 text-lg font-bold ">A world of secrets and danger</Text>
           <Text className="text-gray-400 mb-3">Will Rowan, an outsider, find love as Casimir... Thorn's mate?</Text>
-          <Image source={require('../../../assets/banner.png') } className="h-40 w-full mt-2 rounded" />
+          <TouchableOpacity onPress={()=>router.push('screens/pages/StoryScreen')}>
+            <Image source={require('../../../assets/banner.png') } className="h-40 w-full mt-2 rounded"/>
+          </TouchableOpacity>          
         </View>
 
         <View className="p-4 bg-[#01170A] border-y-2 border-green-900">
