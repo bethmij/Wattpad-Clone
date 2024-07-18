@@ -36,4 +36,7 @@ Feel free to explore the code, contribute, and share your feedback to help impro
 - Writing Page
 - ![writingPage](./Screenshot/writing.jpeg)
 
+- Story Page
+- ![storyPage](./Screenshot/storyScreen.jpeg)
+
 

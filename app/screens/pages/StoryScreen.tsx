@@ -21,7 +21,6 @@ const storyContent = [
   `But just as quickly, the moment passed. She turned away, wiping her tears, and he let her go, knowing that neither of them had all the answers yet.`,
 ];
 
-
 const comments = [
   { paragraphIndex: 0, count: 4 },
   { paragraphIndex: 2, count: 2 },
@@ -31,40 +30,36 @@ const comments = [
 
 const StoryScreen = () => {
   return (
-    <SafeAreaView className="flex-1 bg-black p-4">
-
-      <View className="flex-row items-center justify-between pb-4">
-        <Ionicons name="arrow-back" size={24} color="white" onPress={()=>router.back()}/>
-        <Text className="text-white text-lg font-bold">HEART OF IRON</Text>
-        <Ionicons name="menu" size={24} color="white" />
-      </View>
-
-
-      <Image
-        source={require('../../../assets/banner.png')}
-        className="w-full h-40 rounded-lg"
-      />
-
-    
-      <Text className="text-white text-center text-2xl font-bold pb-4 mt-10 mb-2" >1. The Bond Of Hate</Text>
-
-      <View className="flex-row justify-center pb-4 gap-x-5 mb-5">
-        <View className="flex-row items-center">
-          <Ionicons name="eye" size={20} color="gray" />
-          <Text className="text-gray-400 pl-1">492</Text>
-        </View> 
-        <View className="flex-row items-center">
-          <Ionicons name="heart" size={20} color="gray" />
-          <Text className="text-gray-400 pl-1">156</Text>
+    <SafeAreaView className="flex-1 bg-black">
+      <ScrollView contentContainerStyle={{ padding: 16 }}>
+        <View className="flex-row items-center justify-between pb-4">
+          <Ionicons name="arrow-back" size={24} color="white" onPress={() => router.back()} />
+          <Text className="text-white text-lg font-bold">HEART OF IRON</Text>
+          <Ionicons name="menu" size={24} color="white" />
         </View>
-        <View className="flex-row items-center">
-          <Ionicons name="chatbubble" size={20} color="gray" />
-          <Text className="text-gray-400 pl-1">60</Text>
-        </View>
-      </View>
 
-     
-      <ScrollView>
+        <Image
+          source={require('../../../assets/banner.png')}
+          className="w-full h-40 rounded-lg"
+        />
+
+        <Text className="text-white text-center text-2xl font-bold pb-4 mt-10 mb-2">1. The Bond Of Hate</Text>
+
+        <View className="flex-row justify-center pb-4 gap-x-5 mb-5">
+          <View className="flex-row items-center">
+            <Ionicons name="eye" size={20} color="gray" />
+            <Text className="text-gray-400 pl-1">492</Text>
+          </View>
+          <View className="flex-row items-center">
+            <Ionicons name="heart" size={20} color="gray" />
+            <Text className="text-gray-400 pl-1">156</Text>
+          </View>
+          <View className="flex-row items-center">
+            <Ionicons name="chatbubble" size={20} color="gray" />
+            <Text className="text-gray-400 pl-1">60</Text>
+          </View>
+        </View>
+
         {storyContent.map((paragraph, index) => (
           <View key={index} className="flex-row items-start pb-2">
             <Text className="flex-1 text-gray-300 text-lg">{paragraph}</Text>
