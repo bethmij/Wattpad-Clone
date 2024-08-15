@@ -49,7 +49,7 @@ const LogIn = () => {
           </View>
           
           <TextInput
-            className="h-12 border border-gray-300 rounded mb-4 px-3 bg-transparent"
+            className="h-12 border text-white border-gray-300 rounded mb-4 px-3 bg-transparent"
             placeholder="Email"
             placeholderTextColor="#ccc"
             onChangeText={setEmail}
@@ -57,7 +57,7 @@ const LogIn = () => {
             keyboardType="email-address"
           />
           <TextInput
-            className="h-12 border border-gray-300 rounded mb-4 px-3 bg-transparent"
+            className="h-12 border text-white border-gray-300 rounded mb-4 px-3 bg-transparent"
             placeholder="Password"
             placeholderTextColor="#ccc"
             onChangeText={setPassword}

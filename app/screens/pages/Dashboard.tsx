@@ -134,7 +134,7 @@ const Dashboard = () => {
             </View>
             <View className="mr-4">
               <Image source={require('../../../assets/originals/original2.jpg')} className="h-40 w-24 rounded" />
-              <Text className="text-white mt-2">Fifty Shades</Text>
+              <Text className="text-white mt-2">Two worlds</Text>
             </View>
             <View className="mr-4">
               <Image source={require('../../../assets/originals/original3.jpg')} className="h-40 w-24 rounded" />

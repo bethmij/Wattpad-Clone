@@ -16,12 +16,12 @@ const updates = [
   },
   {
     id: 2,
-    profilePic: require('../../../assets/profile-logo.jpg'),
+    profilePic: require('../../../assets/profile-logo2.jpg'),
     username: 'kimbuddyy',
     action: 'updated',
     storyTitle: 'အချိန် - 25',
     timestamp: 'Yesterday at 8:54 PM',
-    storyPic: require('../../../assets/book1.jpg'),
+    storyPic: require('../../../assets/book2.jpg'),
   },
   
 ];

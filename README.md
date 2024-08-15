@@ -20,23 +20,26 @@ Backend
 
 Feel free to explore the code, contribute, and share your feedback to help improve the application!
 - Login Page
-- ![login](./Screenshot/login.png)
+![login](./Screenshot/login.png)
 
 - Dashboard
-- ![dashboard_1](./Screenshot/dashboarb1.jpeg)
+![dashboard_1](./Screenshot/dashboard1.png)
 
-- ![dashboard_2](./Screenshot/dasbboard2.jpeg)
+- ![dashboard_2](./Screenshot/dasbboard2.png)
 
 - Search Page
-- ![searchPage](./Screenshot/searchPage.jpeg)
+![searchPage](./Screenshot/searchPage.png)
 
 - Library Page
-- ![libraryPage](./Screenshot/library.jpeg)
+![libraryPage](./Screenshot/library.png)
 
 - Writing Page
-- ![writingPage](./Screenshot/writing.jpeg)
+![writingPage](./Screenshot/writing.png)
 
 - Story Page
-- ![storyPage](./Screenshot/storyScreen.jpeg)
+![storyPage](./Screenshot/storyScreen.png)
+
+- Notification Page
+![storyPage](./Screenshot/notification.png)
 
 

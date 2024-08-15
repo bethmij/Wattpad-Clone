@@ -26,11 +26,7 @@ const data = [
         title: 'Kemmura',
         cover: require('../../../assets/library/4.jpg'),
       },
-      {
-        id: '5',
-        title: 'Fifty Shades',
-        cover: require('../../../assets/library/5.jpg'),
-      },
+     
       {
         id: '6',
         title: 'Forced',
