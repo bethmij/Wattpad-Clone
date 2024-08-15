@@ -6,11 +6,6 @@ This mobile application is designed to emulate the core features of Wattpad, ena
 Frontend
 ✅ React Native
 
-Backend
-✅ Node.js
-✅ Express.js
-✅ MongoDB
-
 ## Key Features:
 - Story Browsing: Explore a vast collection of stories across various genres.
 - Story Creation: Write and publish your own stories with ease.
