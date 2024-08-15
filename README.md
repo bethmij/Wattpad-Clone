@@ -15,26 +15,30 @@ Frontend
 
 Feel free to explore the code, contribute, and share your feedback to help improve the application!
 - Login Page
-![login](./Screenshot/login.png)
+-  <img src="./Screenshot/login.png" alt="login" width="500"/>
 
 - Dashboard
-![dashboard_1](./Screenshot/dashboard1.png)
+-  <img src="./Screenshot/dashboard1.png" alt="dashboard_1" width="500"/>
+-  <img src="./Screenshot/dasbboard2.png" alt="dashboard_2" width="500"/>
 
-- ![dashboard_2](./Screenshot/dasbboard2.png)
 
 - Search Page
-![searchPage](./Screenshot/searchPage.png)
+-  <img src="./Screenshot/searchPage.png" alt="searchPage" width="500"/>
 
 - Library Page
-![libraryPage](./Screenshot/library.png)
+-  <img src="./Screenshot/library.png" alt="libraryPage" width="500"/>
+
 
 - Writing Page
-![writingPage](./Screenshot/writing.png)
+-  <img src="./Screenshot/writing.png" alt="writingPage" width="500"/>
+
 
 - Story Page
-![storyPage](./Screenshot/storyScreen.png)
+- <img src="./Screenshot/storyScreen.png" alt="storyPage" width="500"/>
 
-- Notification Page
-![storyPage](./Screenshot/notification.png)
+
+- Notification Page 
+-  <img src="./Screenshot/notification.png" alt="notificationPage" width="500"/>
+
 
 
